@@ -10,6 +10,14 @@ EpidemicSim models a simple SIR (Susceptible, Infected, Removed) system of movin
 - `Assets/Scripts/Jobs/*`: Burst-compiled parallel jobs for movement, grid buildup, infection spread, and healing.
 - Data structure sizes can scale up to tens of thousands of agents.
 
+# Screenshots
+
+Left: infection spread without masks. 
+Right: infection spread when both infected and non-infected individuals wear masks.
+
+![Simulation Screenshot 1](Images/s1.png)
+![Simulation Screenshot 2](Images/s2.png)
+
 ## Key Concepts
 
 - Agents live in a 2D bounded box (x, y). 3D rendering is done on the XZ plane.
